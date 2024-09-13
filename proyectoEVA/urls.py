@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from appEVA.views import inicio
+from appEVA.views import inicio,yaris
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',inicio)
+    path('',inicio, name=inicio),
+    path('yaris/',yaris, name=yaris)
 ]

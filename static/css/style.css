@@ -1,4 +1,10 @@
 #titulo{
     text-align: center;
+    display: flex;
     
+
+}
+#volver{
+    text-align: center;
+
 }
